@@ -11,8 +11,8 @@ display_footer: inital  #change this to 'none' if you want to hide the footer co
 parallax_image_one: assets/images/startup3.jpg # These are the images used for the parallax background
 parallax_image_two: assets/images/startup3.jpg
 
-project_one: "First Project"
-project_one_description: Describe your project!
+project_one: "Mood Music"
+project_one_description: I worked on this project with three others during the BoilerMake 24-hr hackathon at Purdue University. The application obtains the user's heart rate from their fitbit, sends it to a node server which communicates with Spotify API to produce a playlist of music tailored to the user's heartbeat at the time. We believed this would make it easier for music-listeners to pick their music rather than scroll through their library of songs. This application was built using NodeJS, HTML, CSS, and Javascript.
 project_one_url: https://github.com/jameshamann/jekyll-material-theme
 project_one_icon: location_on
 

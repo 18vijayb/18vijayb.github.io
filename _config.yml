@@ -4,7 +4,7 @@ email: vijay.s.bharadwaj@gmail.com
 description: I am a second-year student at Purdue University, aiming to graduate with a Bachelors of Sciences in Computer Science and Bachelors of Sciences in Mathematics and Statistics.
 
 baseurl: "/blog"
-url: ""
+url: ""   
 
 display_footer: inital  #change this to 'none' if you want to hide the footer copyright text
 

@@ -8,7 +8,6 @@
      $('.materialboxed').materialbox();
      $('.scrollspy').scrollSpy();
      $('.tap-target').tapTarget('open');
-
      if (localStorage.getItem('cookieconsent') === 'true') {
        $('#cookies').hide()
      }

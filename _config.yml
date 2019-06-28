@@ -13,7 +13,7 @@ parallax_image_two: assets/images/startup3.jpg
 
 project_one: "Mood Music"
 project_one_description: I worked on this project with three others during the BoilerMake 24-hr hackathon at Purdue University. The application obtains the user's heart rate from their fitbit, sends it to a node server which communicates with Spotify API to produce a playlist of music tailored to the user's heartbeat at the time. We believed this would make it easier for music-listeners to pick their music rather than scroll through their library of songs. This application was built using NodeJS, HTML, CSS, and Javascript.
-project_one_url:
+project_one_url: https://devpost.com/software/mood-music-0g7f6u
 project_one_image: assets/images/gallery.jpg
 
 project_two: Proof of Concept BlockChain

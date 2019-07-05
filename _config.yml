@@ -141,7 +141,7 @@ skills:
   #- name: yii
   #- name: zend
 
-icon_size: 55 # font-size of icons in px
+icon_size: 47 # font-size of icons in px
 colored: colored # Leave blank for black and white icons
 
 project_button: Github

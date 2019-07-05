@@ -6,7 +6,7 @@
       <div class="container">
         <br><br>
         <img src="./assets/images/ProfilePicture.png" style="border-radius:50%; max-width: 8vw; max-height:auto; height:auto; width:15.6rem; position:relative; display:block; margin-left:auto; margin-right:auto" alt="Avatar">
-        <h1 class="header center teal-text text-lighten-2">{{ site.title }}</h1>
+        <h5 class="header center teal-text text-lighten-2">{{ site.title }}</h5>
         <div class="row center">
           <h5 class="header col s12 light">{{ site.description }}</h5>
         </div>
@@ -19,6 +19,12 @@
 <div id="cookies" style="display:{{site.cookies_banner}}">
   <p style="text-align:left; padding-left:8px"><a value="hide/show" id="check" class="waves-effect waves-light green lighten-1 btn btn-floating pulse" onclick="Materialize.toast('{{site.cookie_accept_message}}', 2000)" ><i class="material-icons">check</i></a></p>
   {% include cookies.html %}
+</div>
+
+<div class="row" style="text-align:center">
+    <a class="waves-effect waves-light btn grey darken-1" target="_blank" href="{{site.github}}"><i class="material-icons right">code</i>Github</a>
+    <a class="waves-effect waves-light btn blue darken-1" target="_blank" href="{{site.linkedin}}"><i class="material-icons right">portrait</i>LinkedIn</a>
+    <a class="waves-effect waves-light btn black darken-1" target="_blank" href="{{site.resume}}"><i class="material-icons right">assignment</i>Resume</a>
 </div>
 
 <div class="container" style="padding:20px;">

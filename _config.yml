@@ -12,7 +12,7 @@ parallax_image_one: assets/images/startup3.jpg # These are the images used for t
 parallax_image_two: assets/images/startup3.jpg
 
 project_one: "Mood Music"
-project_one_description: I worked on this project with three others during the BoilerMake 24-hr hackathon at Purdue University. The application obtains the user's heart rate from their fitbit, sends it to a node server which communicates with Spotify API to produce a playlist of music tailored to the user's heartbeat at the time. We believed this would make it easier for music-listeners to pick their music rather than scroll through their library of songs. This application was built using NodeJS, HTML, CSS, and Javascript.
+project_one_description: I worked on this project with three others during the BoilerMake 24-hr hackathon at Purdue University. The application obtains the user's heart rate from their fitbit, sends it to a node server which communicates with Spotify API to produce a playlist of music tailored to the user's heartbeat at the time. We believed this would make it easier for music-listeners to pick their music rather than scroll through their library of songs.
 project_one_url: https://devpost.com/software/mood-music-0g7f6u
 project_one_image: assets/images/gallery.jpg
 
@@ -45,7 +45,7 @@ skills:
   - name: angularjs
   #- name: apache
   #- name: appcelerator
-  - name: apple
+  #- name: apple
   #- name: atom
   #- name: babel
   #- name: backbonejs
@@ -53,7 +53,7 @@ skills:
   - name: bootstrap
   #- name: bower
   #- name: c
-  - name: chrome
+  #- name: chrome
   #- name: codeigniter
   #- name: coffescript
   #- name: confluence
@@ -70,8 +70,8 @@ skills:
   #- name: dot-net
   #- name: drupal
   #- name: erlang
-  - name: facebook
-  - name: firefox
+  #- name: facebook
+  #- name: firefox
   #- name: foundation
   #- name: gatling
   - name: gimp
@@ -79,13 +79,13 @@ skills:
   - name: github
   #- name: gitlab
   #- name: go
-  - name: google
+  #- name: google
   - name: gradle
   #- name: grunt
   #- name: gulp
   #- name: heroku
   - name: html5
-  - name: ie10
+  #- name: ie10
   #- name: illustrator
   #- name: inkscape
   - name: itellij
@@ -117,10 +117,10 @@ skills:
   #- name: redis
   #- name: ruby
   #- name: rubymine
-  - name: safari
+  #- name: safari
   #- name: sass
   #- name: sequelize
-  - name: slack
+  #- name: slack
   #- name: sourcetree
   - name: ssh
   #- name: swift
@@ -136,7 +136,7 @@ skills:
   #- name: vuejs
   #- name: webpack
   #- name: webstorm
-  - name: windows8
+  #- name: windows8
   #- name: wordpress
   #- name: yii
   #- name: zend

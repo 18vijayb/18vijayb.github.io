@@ -1,4 +1,4 @@
-sitemap: http://localhost:4000/home/sitemap.xml
+sitemap: http://localhost:4000/sitemap.xml
 
 user-agent: EmailCollector
 disallow: /

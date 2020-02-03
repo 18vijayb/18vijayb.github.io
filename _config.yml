@@ -1,174 +1,45 @@
-title: Vijay Bharadwaj
-name: Vijay Bharadwaj
-email: vijay.s.bharadwaj@gmail.com
-description: Computer Science and Statistics student at Purdue University
+# Site Info
+title:              "Vijay's Website"
+description:        "A minimalist Jekyll theme"
+author_name:        "Vijay Bharadwaj" # change this to your name
+logo_url:           https://avatars0.githubusercontent.com/u/18088027?v=4 # Get it from GitHub API: https://api.github.com/users/<username>
 
-baseurl: "/blog"
-url: ""   
+# Site Settings
+url:                https://18vijayb.github.io # main url
+baseurl:            /home
+permalink:          /:title # Post permalink
+timezone:           America/Los_Angeles # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+mathjax:            true  # enables support for mathjax - set to 'false' to disable
 
-display_footer: inital  #change this to 'none' if you want to hide the footer copyright text
+# Site Build
+highlighter:        rouge
+markdown:           kramdown
+kramdown:
+    input:          GFM
+sass:
+    style:          :compressed
 
-parallax_image_one: assets/images/startup3.jpg # These are the images used for the parallax background
-parallax_image_two: assets/images/startup3.jpg
-
-project_one: "Mood Music"
-project_one_description: I worked on this project with three others during the BoilerMake 24-hr hackathon at Purdue University. The application obtains the user's heart rate from their fitbit, sends it to a node server which communicates with Spotify API to produce a playlist of music tailored to the user's heartbeat at the time. We believed this would make it easier for music-listeners to pick their music rather than scroll through their library of songs.
-project_one_url: https://devpost.com/software/mood-music-0g7f6u
-project_one_image: assets/images/gallery.jpg
-
-project_two: Proof of Concept BlockChain
-project_two_description: I recently worked on this project at a hackathon hosted by UPS. At this hackathon, we built a proof of concept blockchain using Java, nodejs, and html to demonstrate its usefulness, efficiency, and security in place of the standard database. We presented our work to fellow interns and UPS higher-ups. Feel free to contact me for more details, the project repository is private for confidentiality reasons.
-project_two_url:
-project_two_image: assets/images/BlockChain.png
-
-
-project_three: Third Project
-project_three_description: Describe your project!
-project_three_url: https://github.com/jameshamann/jekyll-material-theme
-project_three_icon: hotel
-
-
-project_four: Fourth Project
-project_four_description: Describe your project!
-project_four_url: https://github.com/jameshamann/jekyll-material-theme
-project_four_icon: restaurant
-
-portfolio_heading: Portfolio
-portfolio_type: cards
-
-syntax_highlighting: true
-# Skill icons from https://konpa.github.io/devicon/
-
-skills:
-  #- name: amazonwebservices
-  #- name: android
-  - name: angularjs
-  #- name: apache
-  #- name: appcelerator
-  #- name: apple
-  #- name: atom
-  #- name: babel
-  #- name: backbonejs
-  #- name: bitbucket
-  - name: bootstrap
-  #- name: bower
-  #- name: c
-  #- name: chrome
-  #- name: codeigniter
-  #- name: coffescript
-  #- name: confluence
-  #- name: cplusplus
-  #- name: csharp
-  - name: css3
-  #- name: cucumber
-  #- name: d3js
-  #- name: debian
-  #- name: devicon
-  #- name: django
-  #- name: docker
-  #- name: doctrine
-  #- name: dot-net
-  #- name: drupal
-  #- name: erlang
-  #- name: facebook
-  #- name: firefox
-  #- name: foundation
-  #- name: gatling
-  - name: gimp
-  - name: git
-  - name: github
-  #- name: gitlab
-  #- name: go
-  #- name: google
-  - name: gradle
-  #- name: grunt
-  #- name: gulp
-  #- name: heroku
-  - name: html5
-  #- name: ie10
-  #- name: illustrator
-  #- name: inkscape
-  - name: itellij
-  - name: java
-  #- name: jasmine
-  - name: javascript
-  #- name: laravel
-  #- name: less
-  - name: linux
-  #- name: meteor
-  #- name: mocha
-  #- name: mongodb
-  #- name: moodle
-  - name: mysql
-  #- name: nginx
-  - name: nodejs
-  #- name: nodewebkit
-  #- name: oracle
-  - name: photoshop
-  #- name: php
-  #- name: phpstorm
-  - name: protractor
-  #- name: postgresql
-  - name: python
-  #- name: pycharm
-  #- name: rails
-  #- name: react
-  #- name: redhat
-  #- name: redis
-  #- name: ruby
-  #- name: rubymine
-  #- name: safari
-  #- name: sass
-  #- name: sequelize
-  #- name: slack
-  #- name: sourcetree
-  - name: ssh
-  #- name: swift
-  #- name: symfony
-  - name: tomcat
-  #- name: travis
-  #- name: trello
-  #- name: twitter
-  - name: typescript
-  #- name: ubuntu
-  - name: vim
-  - name: visualstudio
-  #- name: vuejs
-  #- name: webpack
-  #- name: webstorm
-  #- name: windows8
-  #- name: wordpress
-  #- name: yii
-  #- name: zend
-
-icon_size: 47 # font-size of icons in px
-colored: colored # Leave blank for black and white icons
-
-project_button: Github
-
-github: https://github.com/18vijayb
-#medium: https://medium.com
-linkedin: https://www.linkedin.com/in/vijay-bharadwaj-385975165/
-resume: https://drive.google.com/file/d/1ZF2xkRo91FWXuoajrAt-3eXRFw0E2V6G/view?usp=sharing
-
-baseurl: # if your site is located at /blog or /home, enter it here, otherwise leave it empty
-url: http://localhost:4000/ #the url of your site
-
-# Google tracking, if both are filled, tag manager will prevail. Set up GA through GTM in that case
-tag_manager_id: # This looks something like GTM-XXXXXXX
-google_analytics_tracking_id: UA-142140616-1
-
-cookies_banner: show # The value "show" will show the cookies banner, the value "none" will hide the banner.
-
-cookie_accept_message: Thanks!
-
-syntax_highlighting: true # include the css for syntax highlighting
-
-# Build settings
-markdown: kramdown
-# theme: minima
-permalink: pretty
+# Other Params
+include:            [ "robots.txt" ]
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script" ]
 plugins:
-  - jekyll-feed
-  - jekyll-assets
-  - jekyll-minifier
+  - jekyll-sitemap
+
+
+
+defaults:
+  -
+    scope:
+      path:         ""
+    values:
+      layout:       "null"
+  -
+    scope:
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      type:         "posts"
+    values:
+      layout:       "post"

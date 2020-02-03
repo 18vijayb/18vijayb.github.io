@@ -1,29 +1,21 @@
-<!DOCTYPE html>
-<html>
-    <head>
-      {% if jekyll.environment == 'production' %}
-        {% if site.tag_manager_id %}
-          {% include google_tag_manager.html %}
-        {% elsif site.google_analytics_tracking_id %}
-          {% include google_analytics.html %}
-        {% endif %}
-      {% endif %}
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/css/materialize.css">
-      {% if site.syntax_highlighting %}
-        <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/main.css">
-      {% endif %}
-      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-      <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-      <title>{{site.title}}</title>
-    </head>
-    <body>
-      {% if site.tag_manager_id and jekyll.environment == 'production' %}
-        <!-- Google Tag Manager (noscript) -->
-          <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{site.tag_manager_id}}"
-            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-        <!-- End Google Tag Manager (noscript) -->
-      {% endif %}
+{% if page.title %}
+	<title>{{ page.title }} · {{ site.title }}</title>
+{% else %}
+	<title>{{ site.title }}</title>
+{% endif %}
 
+<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+<link rel="icon" href="{{ "/assets/favicon.png" | prepend: site.baseurl | prepend: site.url }}">
+<link rel="apple-touch-icon" href="{{ "/assets/touch-icon.png" | prepend: site.baseurl | prepend: site.url }}">
+<link rel="stylesheet" href="{{ "/assets/core.css" | prepend: site.baseurl | prepend: site.url }}">
+<link rel="canonical" href="{{ page.url | prepend: site.baseurl | prepend: site.url }}">
+<link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+
+{% if site.mathjax %}
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+{% endif %}

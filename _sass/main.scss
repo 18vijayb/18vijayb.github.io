@@ -150,6 +150,45 @@ blockquote {
     }
   }
 }
+.logo-social {
+  position: relative;
+  margin: 0 auto 35px;
+  text-align: center;
+  animation-duration: 0.7s;
+  animation-fill-mode: both;
+  animation-name: bounce;
+  -webkit-animation-duration: 0.7s;
+  -webkit-animation-fill-mode: both;
+  -webkit-animation-name: bounce;
+  a {
+    background: #ddd url();
+    color: #000;
+    text-decoration: none;
+    font-weight: 700;
+    height: 50px !important;
+    width: 50px !important;
+    font-size: 1.5em;
+    border-radius: 100%;
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+    border: 5px solid #fff;
+    box-sizing: border-box;
+    &:hover,
+    &:focus {
+      background: #f14e32;
+    }
+    &:hover + .logo-prompt,
+    &:focus + .logo-prompt {
+      display: inline-block !important;
+    }
+    @media (max-width : 480px) {&:hover + .logo-prompt,
+      &:focus + .logo-prompt {
+        display: none !important;
+      }
+    }
+  }
+}
 iframe {
   margin: 45px 0 !important;
 }
